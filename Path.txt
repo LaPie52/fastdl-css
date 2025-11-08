@@ -1,0 +1,13 @@
+//materials
+materials/models/player/krix-hvter/otis/byeyes.vmt
+materials/models/player/krix-hvter/otis/byeyes.vtf
+materials/models/player/krix-hvter/otis/byotiscutscene.vmt
+materials/models/player/krix-hvter/otis/byotiscutscene.vtf
+
+//models
+models/player/krix-hvter/otis/otis.dx80.vtx
+models/player/krix-hvter/otis/otis.dx90.vtx
+models/player/krix-hvter/otis/otis.mdl
+models/player/krix-hvter/otis/otis.phy
+models/player/krix-hvter/otis/otis.sw.vtx
+models/player/krix-hvter/otis/otis.vvd
