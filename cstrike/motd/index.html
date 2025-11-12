@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Les Rats Jeux - GGDM</title>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 600px;
+  overflow: hidden; /* Pas de scrollbar */
+  background-color: #f8e8c4;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #3b2f2f;
+  text-align: center;
+}
+
+/* Titres */
+h1 {
+  font-size: 42px;
+  margin: 10px 0 0 0;
+  color: #2d2d2d;
+  text-shadow: 1px 1px 0 #f6d16b;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px 0 20px 0;
+  color: #5a4632;
+}
+
+/* Conteneur principal */
+#contenu {
+  width: 800px;
+  height: 600px;
+  background: url("welcome_gungame.jpg") no-repeat center center;
+  background-size: contain; /* L'image entière est visible */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Contenu en haut */
+  align-items: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+/* Liste des infos */
+ul {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+li {
+  margin: 3px 0;
+}
+
+/* Footer */
+footer {
+  font-size: 12px;
+  color: #7a6a50;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+/* Musique */
+audio {
+  display: none; /* cache le lecteur */
+}
+</style>
+</head>
+<body>
+<div id="contenu">
+  <h1>🐭 LES RATS JEUX 🧀</h1>
+  <h2>Serveur GGDM</h2>
+
+  <ul>
+    <li>🔫 Mode : GunGame Deathmatch</li>
+    <li>⚡ 3 kills d'affilée = TURBO activé !</li>
+    <li>😈 Pas de fairplay... on s'y fait vite !</li>
+  </ul>
+
+  <footer>© 2025 Les Rats Jeux — GGDM</footer>
+</div>
+
+<!-- Musique automatique -->
+<audio autoplay loop>
+  <source src="http://tonfastdl.com/sound/motd/summer.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
