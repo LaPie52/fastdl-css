@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"nature/milrock002"
+	"%tooltexture"		"nature/milrock002_2b_tooltexture"
+	"$surfaceprop"		"rock"
+}
