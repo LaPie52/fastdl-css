@@ -1,0 +1,966 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (137212 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 511 texinfos to 357
+Reduced 25 texdatas to 23 (708 bytes to 671)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 316 portalclusters
+ 924 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 385 visible clusters (0.69%)
+Total clusters visible: 55873
+Average clusters visible: 176
+Building PAS...
+Average clusters audible: 314
+visdatasize:27114  compressed from 25280
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1872 faces
+217605 square feet [31335168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1872 patches before subdivision
+20290 patches after subdivision
+48 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3075112, max 615
+transfer lists:  23.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(78337, 698856, 35787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10456, 67870, 1488)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1695, 6666, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(331, 658, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 65, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(19, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0078 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                327/8192         3924/98304    ( 4.0%) 
+brushsides            2612/65536       20896/524288   ( 4.0%) 
+planes                1770/65536       35400/1310720  ( 2.7%) 
+vertexes              2729/65536       32748/786432   ( 4.2%) 
+nodes                  691/65536       22112/2097152  ( 1.1%) 
+texinfos               357/12288       25704/884736   ( 2.9%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1872/65536      104832/3670016  ( 2.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1265/65536       70840/3670016  ( 1.9%) 
+leaves                 707/65536       22624/2097152  ( 1.1%) 
+leaffaces             2170/65536        4340/131072   ( 3.3%) 
+leafbrushes            576/65536        1152/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13568/512000      54272/2048000  ( 2.6%) 
+edges                 7863/256000      31452/1024000  ( 3.1%) 
+LDR worldlights         48/8192         4224/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1167/65536        2334/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      497092/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       27114/16777216 ( 0.2%) 
+entdata               [variable]       21304/393216   ( 5.4%) 
+LDR ambient table      707/65536        2828/262144   ( 1.1%) 
+HDR ambient table      707/65536        2828/262144   ( 1.1%) 
+LDR leaf ambient      3040/65536       85120/1835008  ( 4.6%) 
+HDR leaf ambient       707/65536       19796/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      137212/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4630
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (167282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 369
+Reduced 27 texdatas to 25 (745 bytes to 708)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 316 portalclusters
+ 924 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 390 visible clusters (0.70%)
+Total clusters visible: 55878
+Average clusters visible: 176
+Building PAS...
+Average clusters audible: 314
+visdatasize:27114  compressed from 25280
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2135 faces
+221993 square feet [31967124.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2135 patches before subdivision
+20841 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3324976, max 692
+transfer lists:  25.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(106907, 528720, 44519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13987, 36547, 2320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2256, 2575, 192)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(434, 183, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(97, 13, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                371/8192         4452/98304    ( 4.5%) 
+brushsides            3200/65536       25600/524288   ( 4.9%) 
+planes                2316/65536       46320/1310720  ( 3.5%) 
+vertexes              3191/65536       38292/786432   ( 4.9%) 
+nodes                  703/65536       22496/2097152  ( 1.1%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2135/65536      119560/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1528/65536       85568/3670016  ( 2.3%) 
+leaves                 721/65536       23072/2097152  ( 1.1%) 
+leaffaces             2436/65536        4872/131072   ( 3.7%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15996/512000      63984/2048000  ( 3.1%) 
+edges                 9261/256000      37044/1024000  ( 3.6%) 
+LDR worldlights         52/8192         4576/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1218/65536        2436/131072   ( 1.9%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      508008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       27114/16777216 ( 0.2%) 
+entdata               [variable]       25888/393216   ( 6.6%) 
+LDR ambient table      721/65536        2884/262144   ( 1.1%) 
+HDR ambient table      721/65536        2884/262144   ( 1.1%) 
+LDR leaf ambient      3111/65536       87108/1835008  ( 4.7%) 
+HDR leaf ambient       721/65536       20188/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      167282/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5324
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (167378 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 369
+Reduced 27 texdatas to 25 (745 bytes to 708)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 316 portalclusters
+ 924 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 428 visible clusters (0.77%)
+Total clusters visible: 55426
+Average clusters visible: 175
+Building PAS...
+Average clusters audible: 314
+visdatasize:27113  compressed from 25280
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2171 faces
+245816 square feet [35397520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2171 patches before subdivision
+23133 patches after subdivision
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3828727, max 667
+transfer lists:  29.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(111942, 551378, 54022)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14646, 37674, 2818)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2355, 2628, 220)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(450, 185, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(100, 13, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                371/8192         4452/98304    ( 4.5%) 
+brushsides            3200/65536       25600/524288   ( 4.9%) 
+planes                2320/65536       46400/1310720  ( 3.5%) 
+vertexes              3239/65536       38868/786432   ( 4.9%) 
+nodes                  703/65536       22496/2097152  ( 1.1%) 
+texinfos               369/12288       26568/884736   ( 3.0%) 
+texdata                 25/2048          800/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2171/65536      121576/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1529/65536       85624/3670016  ( 2.3%) 
+leaves                 721/65536       23072/2097152  ( 1.1%) 
+leaffaces             2480/65536        4960/131072   ( 3.8%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16168/512000      64672/2048000  ( 3.2%) 
+edges                 9345/256000      37380/1024000  ( 3.7%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1212/65536        2424/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      569516/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       27113/16777216 ( 0.2%) 
+entdata               [variable]       38948/393216   ( 9.9%) 
+LDR ambient table      721/65536        2884/262144   ( 1.1%) 
+HDR ambient table      721/65536        2884/262144   ( 1.1%) 
+LDR leaf ambient      3113/65536       87164/1835008  ( 4.8%) 
+HDR leaf ambient       721/65536       20188/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      167378/4194304  ( 4.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5420
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169938 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 527 texinfos to 370
+Reduced 28 texdatas to 26 (771 bytes to 734)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 322 portalclusters
+ 934 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 470 visible clusters (0.82%)
+Total clusters visible: 57274
+Average clusters visible: 177
+Building PAS...
+Average clusters audible: 320
+visdatasize:28211  compressed from 30912
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2182 faces
+245816 square feet [35397520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2182 patches before subdivision
+23078 patches after subdivision
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3828323, max 673
+transfer lists:  29.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(114433, 546433, 57887)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14819, 37200, 3457)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2381, 2599, 318)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(448, 183, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(98, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0093 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                379/8192         4548/98304    ( 4.6%) 
+brushsides            3248/65536       25984/524288   ( 5.0%) 
+planes                2320/65536       46400/1310720  ( 3.5%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                  709/65536       22688/2097152  ( 1.1%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2182/65536      122192/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1539/65536       86184/3670016  ( 2.3%) 
+leaves                 727/65536       23264/2097152  ( 1.1%) 
+leaffaces             2613/65536        5226/131072   ( 4.0%) 
+leafbrushes            638/65536        1276/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16252/512000      65008/2048000  ( 3.2%) 
+edges                 9399/256000      37596/1024000  ( 3.7%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1158/65536        2316/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      569800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       28211/16777216 ( 0.2%) 
+entdata               [variable]       38948/393216   ( 9.9%) 
+LDR ambient table      727/65536        2908/262144   ( 1.1%) 
+HDR ambient table      727/65536        2908/262144   ( 1.1%) 
+LDR leaf ambient      3144/65536       88032/1835008  ( 4.8%) 
+HDR leaf ambient       727/65536       20356/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      169938/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5442
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169938 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 527 texinfos to 370
+Reduced 28 texdatas to 26 (771 bytes to 734)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 322 portalclusters
+ 934 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 470 visible clusters (0.82%)
+Total clusters visible: 57274
+Average clusters visible: 177
+Building PAS...
+Average clusters audible: 320
+visdatasize:28211  compressed from 30912
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2182 faces
+245816 square feet [35397520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2182 patches before subdivision
+23078 patches after subdivision
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3828323, max 673
+transfer lists:  29.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(114468, 546472, 57928)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14830, 37205, 3464)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2383, 2599, 319)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(449, 183, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(98, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(24, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0092 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                379/8192         4548/98304    ( 4.6%) 
+brushsides            3248/65536       25984/524288   ( 5.0%) 
+planes                2320/65536       46400/1310720  ( 3.5%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                  709/65536       22688/2097152  ( 1.1%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2182/65536      122192/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1539/65536       86184/3670016  ( 2.3%) 
+leaves                 727/65536       23264/2097152  ( 1.1%) 
+leaffaces             2613/65536        5226/131072   ( 4.0%) 
+leafbrushes            638/65536        1276/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16252/512000      65008/2048000  ( 3.2%) 
+edges                 9399/256000      37596/1024000  ( 3.7%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1158/65536        2316/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      569800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       28211/16777216 ( 0.2%) 
+entdata               [variable]       38948/393216   ( 9.9%) 
+LDR ambient table      727/65536        2908/262144   ( 1.1%) 
+HDR ambient table      727/65536        2908/262144   ( 1.1%) 
+LDR leaf ambient      3144/65536       88032/1835008  ( 4.8%) 
+HDR leaf ambient       727/65536       20356/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      169938/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5442
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169938 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 527 texinfos to 370
+Reduced 28 texdatas to 26 (771 bytes to 734)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 322 portalclusters
+ 934 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 469 visible clusters (0.82%)
+Total clusters visible: 57273
+Average clusters visible: 177
+Building PAS...
+Average clusters audible: 320
+visdatasize:28211  compressed from 30912
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2182 faces
+245816 square feet [35397520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2182 patches before subdivision
+23078 patches after subdivision
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3828323, max 673
+transfer lists:  29.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(103788, 542201, 55867)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13873, 36997, 3389)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2235, 2582, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(427, 182, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(94, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(23, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0093 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                379/8192         4548/98304    ( 4.6%) 
+brushsides            3248/65536       25984/524288   ( 5.0%) 
+planes                2320/65536       46400/1310720  ( 3.5%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                  709/65536       22688/2097152  ( 1.1%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2182/65536      122192/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1539/65536       86184/3670016  ( 2.3%) 
+leaves                 727/65536       23264/2097152  ( 1.1%) 
+leaffaces             2613/65536        5226/131072   ( 4.0%) 
+leafbrushes            638/65536        1276/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16252/512000      65008/2048000  ( 3.2%) 
+edges                 9399/256000      37596/1024000  ( 3.7%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1158/65536        2316/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      569800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       28211/16777216 ( 0.2%) 
+entdata               [variable]       38951/393216   ( 9.9%) 
+LDR ambient table      727/65536        2908/262144   ( 1.1%) 
+HDR ambient table      727/65536        2908/262144   ( 1.1%) 
+LDR leaf ambient      3147/65536       88116/1835008  ( 4.8%) 
+HDR leaf ambient       727/65536       20356/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      169938/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5442
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+Material glass/glasswindowbreak070b is depending on itself through materialvar $crackmaterial! Ignoring...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (169938 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 527 texinfos to 370
+Reduced 28 texdatas to 26 (771 bytes to 734)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\download\maps\gg_texturehouse.bsp
+Wrote ZIP buffer, estimated size 960515, actual size 956549
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.prt
+ 322 portalclusters
+ 934 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 470 visible clusters (0.82%)
+Total clusters visible: 57274
+Average clusters visible: 177
+Building PAS...
+Average clusters audible: 320
+visdatasize:28211  compressed from 30912
+writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+2182 faces
+245816 square feet [35397520.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2182 patches before subdivision
+23078 patches after subdivision
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3828323, max 673
+transfer lists:  29.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(103788, 542201, 55867)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(13873, 36997, 3389)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2235, 2582, 313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(427, 182, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(94, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(23, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0094 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/1024          816/49152    ( 1.7%) 
+brushes                379/8192         4548/98304    ( 4.6%) 
+brushsides            3248/65536       25984/524288   ( 5.0%) 
+planes                2320/65536       46400/1310720  ( 3.5%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                  709/65536       22688/2097152  ( 1.1%) 
+texinfos               370/12288       26640/884736   ( 3.0%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2182/65536      122192/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1539/65536       86184/3670016  ( 2.3%) 
+leaves                 727/65536       23264/2097152  ( 1.1%) 
+leaffaces             2613/65536        5226/131072   ( 4.0%) 
+leafbrushes            638/65536        1276/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16252/512000      65008/2048000  ( 3.2%) 
+edges                 9399/256000      37596/1024000  ( 3.7%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1158/65536        2316/131072   ( 1.8%) 
+cubemapsamples          10/1024          160/16384    ( 1.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      569800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       28211/16777216 ( 0.2%) 
+entdata               [variable]       38951/393216   ( 9.9%) 
+LDR ambient table      727/65536        2908/262144   ( 1.1%) 
+HDR ambient table      727/65536        2908/262144   ( 1.1%) 
+LDR leaf ambient      3147/65536       88116/1835008  ( 4.8%) 
+HDR leaf ambient       727/65536       20356/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      956549/0        ( 0.0%) 
+physics               [variable]      169938/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5442
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\download\maps\gg_texturehouse.bsp
+11 seconds elapsed
