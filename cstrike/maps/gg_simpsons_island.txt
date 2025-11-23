@@ -1,0 +1,16 @@
+Extract this in your Steam-Folder:
+
+...steam\steamapps\{username}\counterstrike source\cstrike\maps\..
+
+Start your game and have fun with my map.
+
+
+=================================
+=================================
+
+Visit my Homepage for more map ;)
+
+http://www.wiskyjim.de/
+
+=================================
+=================================
