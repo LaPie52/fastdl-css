@@ -1,0 +1,11 @@
+gg_sky_arena_max
+
+This is a medium sized map with very fast game play that takes place in a 3d open maze.  The map has three levels of play.  Buy Zones are included.
+
+-	64 spawn points, 32 per team
+-	Nav file for bots
+-	Buy Zones
+-	Custom skybox texture by Komaokc
+
+Blair (Bobpoblo) Burkhardt - Level Design
+http://www.gamebanana.com/members/776402
