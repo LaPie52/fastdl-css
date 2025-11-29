@@ -1,0 +1,10 @@
+gg_tophyg for Tophyg (Олег)
+//
+map by Blackcock
+//
+max_wpoly: 500
+size: small
+//
+for FUN GunGame 45.89.67.219:27038
+//
+map created 16.06.2025

@@ -1,0 +1,4 @@
+create by Blackcock 01.2022
+Players: 21 vs 21
+Max wpoly: 500
+Size: Small
