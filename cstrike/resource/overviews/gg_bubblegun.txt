@@ -1,0 +1,8 @@
+"gg_bubblegun"
+{
+"material" "overviews/gg_bubblegun"
+"pos_x" "-1031"
+"pos_y" "1084"
+"scale" "2.00"
+"rotate" "0"
+}
